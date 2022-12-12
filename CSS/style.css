@@ -10,6 +10,10 @@ body{
     background: url(../Asset/images/bck.jpg) no-repeat;
     background-size: cover;
 }
+
+img{
+    object-fit: contain;
+}
 .head-container{
     background-color: #eee;
     font-size: 18px;
@@ -325,7 +329,9 @@ style for cart label and buttons
    border-radius: 4px;
 }
 /*Style Home page*/
-  
+  .body-container{
+    background-color: #f9f6f6;
+  }
 
 .section-container{
     border-top: 8px solid #4a4a;
@@ -341,6 +347,7 @@ style for cart label and buttons
 .section-container img{
     width: 100%;
     height: 500px;
+    object-fit: cover;
 }
 #animation-holder{
     font-size: 30px;
